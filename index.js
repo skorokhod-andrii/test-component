@@ -1,7 +1,7 @@
 class MyElement extends HTMLElement {
-	constructor(wix){
+	constructor(){
   	super()
-    console.log(wix)
+    console.log(window);
   }
   connectedCallback() {
     this.innerHTML = `
